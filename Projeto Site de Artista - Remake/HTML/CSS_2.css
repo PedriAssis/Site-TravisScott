@@ -1,0 +1,105 @@
+body
+
+     {
+          background-color: #f5f5f5;
+          margin: 0;
+          box-sizing: border-box;
+          height: 1000px;
+                                         }
+
+    nav 
+         {
+             background-color: #333;
+             overflow: hidden;
+             position: fixed;
+             width: 100%;                    
+                                             }
+
+    nav .logo{
+                color: #fff;
+                float: left;
+                display: block;
+                padding: 14px 16px;     
+                                      }
+
+    nav a
+            {
+                 color: #fff;
+                 float: right;
+                 text-decoration: none;
+                 display: block;
+                 padding: 14px 16px;
+           
+                                              }
+
+    nav a:hover
+                {
+                  transition: 0.5s;
+                  background-color: #e4e4e4;
+                  color: #4169E1;                    
+                 }
+				 
+	nav .menu
+	           {
+				   color: gold;
+			   }
+
+    nav .target
+                 {
+                     color: #f5f5f5;
+                 }
+
+   
+
+     h1 
+          {  
+             color: black
+                                             }
+
+     h1, h4, h3 
+          {
+              font-family: Georgia, 'Times New Roman', Times, serif;
+                                                                         }
+
+     img 
+           {
+               
+               border:black;  
+             
+
+
+
+                                               }
+
+    h4 
+        { 
+            color: white
+                                     }
+                                     
+     h2, h3 
+         {  
+             color: black
+                                                }
+                                    
+ 
+    video
+          {
+            border: 8px solid black;
+          }
+
+    img 
+           {
+              border: 8px solid black
+           }
+
+	hr
+	       {
+			   width: 75%;
+		   }
+
+    
+
+      
+        
+
+    

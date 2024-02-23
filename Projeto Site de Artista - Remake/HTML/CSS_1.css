@@ -1,0 +1,253 @@
+@import url('https://fonts.cdnfonts.com/css/impactful');
+
+body
+
+     {
+          background-color: #F5F5F5;
+          margin: 0;
+          box-sizing: border-box;    
+          font-family: 'IMPACTFUL', sans-serif;     
+          overflow-x: hidden; 
+                                         }
+
+.logo a:hover{
+    transition: 0.5s;
+    background-color: #333;
+    color: #F5F5F5;
+}
+
+nav 
+         {
+             background-color: #333;
+             overflow: hidden;
+             width: 100%;       
+             position: relative;
+             padding-left: 5px;
+             height: 15%;
+                      
+                                             }
+                                
+
+  nav .logo{
+                color: #fff;
+                float: left;
+                display: block;
+                padding: 14px 16px; 
+                margin-top: 2px;    
+                          }
+
+    nav a
+            {
+                padding-top: 20px;
+                 color: #fff;
+                 float: right;
+                 text-decoration: none;
+                 display: block;
+                 padding: 14px 20px;
+                 margin-top: 20px;
+                                              }
+    
+     nav .abas a 
+            {
+                padding-top: 20px;
+                 color: #fff;
+                 float: right;
+                 text-decoration: none;
+                 display: block;
+                 padding: 14px 20px;
+                 margin-top: 38px;
+                 margin-right: 15px;
+                                              }
+
+    nav a:hover
+                {
+                  transition: 0.5s;
+                  background-color: #e4e4e4;
+                  color: #4169E1;                    
+                 }
+
+
+
+     h1 
+          {  
+             color: white
+                                             }
+
+     h1, h4 
+          {
+              font-family: Georgia, 'Times New Roman', Times, serif;
+                                                                         }
+
+.casa img 
+           {
+               border-radius: 50%;
+               border:black; 
+               border: 8px solid gold;                      
+                
+                                               }
+
+    img .a 
+             {
+                transition: 0.5s;
+                background-color: #e4e4e4;
+                color: #4169E1; 
+                                               }
+
+    h4 
+        { 
+            color: white
+                                     }
+                                     
+     h2 
+         {  
+             color: black
+                                                }
+                                    
+    a
+         { 
+            color: gray
+                                 }
+
+
+
+
+.albuns img {
+    max-width: 550px;
+    max-height: 550px;
+    border: none;
+    padding-left: 35px;
+    padding-right: 80px;
+    /* filter: blur(1px); */
+}
+
+.albuns img:hover {
+    filter: blur(1.5px);
+}
+
+
+.jack {
+    position: relative;
+    display: inline-block;
+  }
+
+.jack:hover {
+    filter: blur(1.5px);
+  }
+  
+.nomejack{
+    position: absolute;
+    top: 88%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    padding: 10px;
+}
+
+
+
+.astro {
+    position: relative;
+    display: inline-block;
+  }
+  
+.nomeastro{
+    position: absolute;
+    top: 88%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    padding: 10px;
+}
+
+.astro:hover {
+    filter: blur(1.5px);
+
+  }
+
+
+.birds {
+    position: relative;
+    display: inline-block;
+  }
+
+.birds:hover {
+    filter: blur(1.5px);
+  }
+  
+.nomebird {
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    padding: 10px;
+}
+
+
+.rodeo {
+    position: relative;
+    display: inline-block;
+  }
+
+.rodeo:hover {
+    filter: blur(1.5px);
+  }
+  
+.nomerodeo{
+    position: absolute;
+    top: 88%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    padding: 10px;
+}
+
+
+.dbrodeo {
+    position: relative;
+    display: inline-block;
+  }
+
+.dbrodeo:hover {
+    filter: blur(1.5px);
+  }
+  
+.nomedb{
+    position: absolute;
+    top: 88%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    padding: 10px;
+}
+
+
+.owl {
+    position: relative;
+    display: inline-block;
+  }
+
+.owl:hover {
+    filter: blur(1.5px);
+  }
+  
+.nomeowl{
+    position: absolute;
+    top: 88%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    padding: 10px;
+}

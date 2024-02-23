@@ -1,0 +1,136 @@
+@import url('https://fonts.cdnfonts.com/css/impactful');
+
+body
+
+     {
+          background-color: #1f022b;
+          margin: 0;
+          box-sizing: border-box;    
+          font-family: 'IMPACTFUL', sans-serif;     
+          overflow-x: hidden; 
+                                         }
+
+
+.rating {
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    margin-top: 25%;
+}
+
+.rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 30px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+  color: #ffa723;
+}
+
+
+
+.quad {
+    background-color: rgba(27, 3, 46, 0.89);
+    border-radius: 30px;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    border: 10px solid transparent;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    border-color: #800080;
+  }
+  25% {
+    border-color: #A020F0;
+  }
+  50% {
+    border-color: #8000FF;
+  }
+  75% {
+    border-color: #4B0082;
+  }
+  100% {
+    border-color: #8A2BE2;
+  }
+}
+
+
+.btn {
+    border: none;
+    width: 15em;
+    height: 5em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #1C1A1C;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+    top: 50%;
+    left: 100%;
+    margin-left: 67%;
+    transform: translate(-100%, -100%);
+    margin-top: 25%;
+  }
+  
+  .sparkle {
+    fill: #AAAAAA;
+    transition: all 800ms ease;
+  }
+  
+  .text {
+    font-weight: 600;
+    color: #AAAAAA;
+    font-size: medium;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(0deg,#A47CF3,#683FEA);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #9917FF;
+    /* transform: translateY(-2px); */
+  }
+  
+  .btn:hover .text {
+    color: white;
+  }
+  
+  .btn:hover .sparkle {
+    fill: white;
+    transform: scale(1.2);
+  } 
